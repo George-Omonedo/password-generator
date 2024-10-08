@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+h1{
+    color: white;
+    padding-left: 50px;
+    padding-top: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+}
+
+h2{
+    color: green;
+    padding-left: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px; 
+}
+
+h3{
+    color: white;
+    padding-left: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;    
+}
+
+button {
+    color: #016f32;
+    width: 150px;
+    background: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+}
+
+#password-shelf {
+    background: grey;
+    width: 300px;
+    border-radius: 10px;
+    height:30px;
+    margin: 10px 0;
+}
+
+#password-shelf2 {
+    background: grey;
+    width: 300px;
+    border-radius: 10px;
+    height: 30px;
+    margin: 10px 0;
+}
+
+.container {
+    display: flex;
+    
+}
+
+#generate-button {
+    display: block;
+    margin: 20px ; /* Center the button horizontally */
+    padding: 100px 20px; /* Add some padding to the button */
+    font-size: 100px; /* Increase the button font size */
+    cursor: pointer; /* Change cursor to pointer */
+}
